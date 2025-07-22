@@ -85,7 +85,7 @@ const UtilsModule = {
                                 const deliveryInfoModal = new bootstrap.Modal(document.getElementById("deliveryInfoModal"));
                                 document.getElementById("deliveryMessage").textContent = deliveryResult.message;
                                 document.getElementById("whatsappContactBtn").onclick = () => {
-                                    const whatsappNumber = "5547991597258";
+                                    const whatsappNumber = "5547996756983";
                                     const whatsappMessage = encodeURIComponent(`Olá! Gostaria de saber mais sobre a entrega para o bairro ${data.bairro}, ${data.localidade}. Meu pedido mínimo é de R$ ${deliveryResult.minOrder.toFixed(2)}.`);
                                     window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, "_blank");
                                 };

@@ -226,7 +226,7 @@ const CheckoutModule = {
         
         // Codificar mensagem para WhatsApp
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/5547991597258?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/5547996756983?text=${encodedMessage}`;
         
         // Abrir WhatsApp
         window.open(whatsappUrl, '_blank');

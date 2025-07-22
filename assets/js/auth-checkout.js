@@ -235,7 +235,7 @@ const AuthCheckoutModule = {
         
         // Encode message for WhatsApp
         const encodedMessage = encodeURIComponent(message);
-        const whatsappUrl = `https://wa.me/5547991597258?text=${encodedMessage}`;
+        const whatsappUrl = `https://wa.me/5547996756983?text=${encodedMessage}`;
         
         // Open WhatsApp
         window.open(whatsappUrl, '_blank');
