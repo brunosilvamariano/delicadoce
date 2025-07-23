@@ -210,7 +210,7 @@ const CheckoutModule = {
     // Função para enviar pedido via WhatsApp
     sendWhatsAppOrder: function(name, address, paymentMethod, finalTotal) {
         // Criar mensagem do pedido para WhatsApp
-        let message = '🍰 *NOVO PEDIDO - DOCE ENCANTO* 🍰\n\n';
+        let message = '🍰 *NOVO PEDIDO - DELICADOCE* 🍰\n\n';
         message += '📋 *ITENS DO PEDIDO:*\n';
         
         window.cart.forEach(item => {

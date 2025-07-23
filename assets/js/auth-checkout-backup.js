@@ -239,7 +239,7 @@ const AuthCheckoutModule = {
         const user = this.getCurrentUser();
         
         // Create WhatsApp message
-        let message = '🍰 *NOVO PEDIDO - DOCE ENCANTO* 🍰\n\n';
+        let message = '🍰 *NOVO PEDIDO - DELICADOCE* 🍰\n\n';
         message += '📋 *ITENS DO PEDIDO:*\n';
         
         orderData.items.forEach(item => {

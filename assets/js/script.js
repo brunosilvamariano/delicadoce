@@ -1,4 +1,4 @@
-// Script principal - Doce Encanto
+// Script principal - Delicadoce
 // Arquivo principal que inicializa todos os módulos
 
 // Inicialização da aplicação
@@ -48,6 +48,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    console.log('🍰 Doce Encanto - Sistema inicializado com sucesso!');
+    console.log('🍰 Delicadoce - Sistema inicializado com sucesso!');
 });
 

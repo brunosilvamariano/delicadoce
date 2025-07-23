@@ -2,7 +2,7 @@
 const PixModule = {
     // Dados do recebedor PIX
     pixKey: '33dcc188-1549-49ec-8c5d-917a20d8242e',
-    pixName: 'Doce Encanto',
+    pixName: 'Delicadoce',
     pixCity: 'JOINVILLE',
     
     // Função para gerar payload PIX completo
@@ -216,7 +216,7 @@ const PixModule = {
     
     // Função para enviar mensagem WhatsApp
     sendWhatsAppMessage: function(orderData = null) {
-        let message = `🏪 *DOCE ENCANTO* 🏪\n\n`;
+        let message = `🏪 *DELICADOCE* 🏪\n\n`;
         
         if (orderData && orderData.items && orderData.items.length > 0) {
             // Incluir informações do pedido
